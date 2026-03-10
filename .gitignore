@@ -1,0 +1,30 @@
+# OS関連
+.DS_Store
+Thumbs.db
+
+# エディタ関連
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# 環境変数・秘密情報（絶対にGitに入れない）
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# Node.js（使う場合）
+node_modules/
+npm-debug.log*
+
+# Python（使う場合）
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ログ
+*.log
